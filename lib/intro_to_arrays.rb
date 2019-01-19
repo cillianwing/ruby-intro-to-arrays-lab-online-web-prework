@@ -19,5 +19,6 @@ def last_element(array)
 end
 
 def first_element_with_array_methods(array)
-  
+  until array.length == 1 do 
+    array.pop
 end
